@@ -1,0 +1,37 @@
+digraph graf {
+    rankdir=TB;
+    node[
+        shape=box,
+        style="rounded,filled",
+        fontsize=24,
+        fontname="Helvetica",
+        fillcolor="#fdf6e3",
+        color="#657b83",
+        fixedsize=false,
+        width=2.5,
+        margin="0.15,0.10"
+    ];
+
+    // Демиурги
+    Chaos [label="Хаос"];
+    Gaia [label="Гея"];
+    Tartarus [label="Тартар"];
+    Eros [label="Эрос"];
+
+    Nyx [label="Нюкта"];
+
+    // Выходцы из Хаоса
+    Chaos -> Gaia;
+    Chaos -> Tartarus;
+    Chaos -> Eros;
+    Chaos -> Nyx;
+
+
+
+
+// --- Визуальные настройки ---
+ranksep=1.2;
+nodesep=0.6;
+labelloc="t";
+label="Генеалогическое древо греческих богов";
+}
