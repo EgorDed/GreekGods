@@ -1,0 +1,12 @@
+// === Герои ===
+Heracles    [label="Геракл"];
+Perseus     [label="Персей"];
+Theseus     [label="Тесей"];
+Jason       [label="Ясон"];
+Achilles    [label="Ахилл"];
+Odysseus    [label="Одиссей"];
+Helen       [label="Елена Прекрасная"];
+Orpheus     [label="Орфей"];
+Medea       [label="Медея"];
+Oedipus     [label="Эдип"];
+Bellerophon [label="Беллерофонт"];

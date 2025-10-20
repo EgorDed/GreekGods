@@ -1,0 +1,18 @@
+// === Титаны ===
+Cronus      [label="Кронос"];
+Rhea        [label="Рея"];
+Oceanus     [label="Океан"];
+Tethys      [label="Тефида"];
+Hyperion    [label="Гиперион"];
+Theia       [label="Фея"];
+Coeus       [label="Кой"];
+Phoebe      [label="Феба"];
+Iapetus     [label="Япет"];
+Themis      [label="Фемида"];
+Mnemosyne   [label="Мнемосина"];
+Atlas       [label="Атлас"];
+Prometheus  [label="Прометей"];
+Epimetheus  [label="Эпиметей"];
+Helios      [label="Гелиос"];
+Selene      [label="Селена"];
+Eos         [label="Эос"];

@@ -1,0 +1,13 @@
+subgraph cluster_chaos {
+    label = "Эпоха Хаоса";
+    style = "rounded";
+    color = "#b39ddb";
+    penwidth = 3;
+
+    Chaos;
+    Gaia;
+    Tartarus;
+    Eros;
+    Nyx;
+    Erebus;
+}

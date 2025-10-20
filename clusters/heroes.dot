@@ -1,0 +1,12 @@
+subgraph cluster_heroes {
+    label = "Герои и смертные";
+    style = "rounded";
+    color = "#aed581";
+    penwidth = 3;
+
+    Heracles;
+    Perseus;
+    Theseus;
+    Helen;
+    Achilles;
+}

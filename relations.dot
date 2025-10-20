@@ -1,0 +1,18 @@
+// === Поколение Хаоса ===
+Chaos -> { Gaia Tartarus Eros Nyx };
+Nyx -> { Erebus };
+
+// === Поколение Титанов ===
+Gaia -> Uranus;
+Uranus -> { Cronus Rhea Themis Oceanus Hyperion };
+
+// === Поколение Олимпийцев ===
+Cronus -> { Zeus Poseidon Hades Hera Demeter Hestia };
+
+// === Дети Зевса ===
+Zeus -> { Athena Apollo Artemis Ares Hermes Dionysus };
+
+// === Герои ===
+Zeus -> Heracles;
+Zeus -> Perseus;
+Zeus -> Helen;

@@ -1,0 +1,14 @@
+// === Боги ===
+Zeus [label="Зевс"];
+Hera [label="Гера"];
+Poseidon [label="Посейдон"];
+Hades [label="Аид"];
+Demeter [label="Деметра"];
+Hestia [label="Гестия"];
+Apollo [label="Аполлон"];
+Artemis [label="Артемида"];
+Ares [label="Арес"];
+Athena [label="Афина"];
+Aphrodite [label="Афродита"];
+Hermes [label="Гермес"];
+Dionysus [label="Дионис"];

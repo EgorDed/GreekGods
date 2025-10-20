@@ -1,0 +1,27 @@
+// === main.dot ===
+digraph GreekMythology {
+    // === Общие настройки ===
+    rankdir=TB;
+    labelloc="t";
+    label="Генеалогическое древо греческих богов";
+    fontsize=32;
+    fontname="Tahoma";
+
+    node [
+        shape=box,
+        style="rounded,filled",
+        fillcolor="#fdf6e3",
+        color="#657b83",
+        fontname="Tahoma",
+        fontsize=24,
+        margin="0.25,0.15"
+    ];
+
+    edge [
+        color="#555555",
+        arrowsize=1.1,
+        penwidth=1.4
+    ];
+
+    // === Ниже PHP скрипт вставит include ===
+}

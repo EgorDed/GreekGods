@@ -1,0 +1,10 @@
+// === Монстры и чудовища ===
+Cerberus    [label="Цербер"];
+Hydra       [label="Гидра"];
+Chimera     [label="Химера"];
+Minotaur    [label="Минотавр"];
+Medusa      [label="Медуза Горгона"];
+Sphinx      [label="Сфинкс"];
+Typhon      [label="Тифон"];
+Echidna     [label="Ехидна"];
+Cyclops     [label="Циклоп"];

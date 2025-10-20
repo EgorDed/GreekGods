@@ -1,0 +1,14 @@
+subgraph cluster_titans {
+    label = "Эпоха Титанов";
+    style = "rounded";
+    color = "#81d4fa";
+    penwidth = 3;
+
+    Uranus;
+    Gaia;
+    Cronus;
+    Rhea;
+    Themis;
+    Oceanus;
+    Hyperion;
+}

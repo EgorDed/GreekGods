@@ -1,0 +1,22 @@
+subgraph cluster_olympians {
+    label = "Эпоха Олимпийцев";
+    style = "rounded";
+    color = "#ffcc80";
+    penwidth = 3;
+
+    Zeus;
+    Hera;
+    Poseidon;
+    Hades;
+    Demeter;
+    Hestia;
+    Apollo;
+    Artemis;
+    Athena;
+    Hermes;
+    Aphrodite;
+    Ares;
+    Dionysus;
+
+    { rank=same; Zeus; Hera; Poseidon; Hades; Demeter; Hestia; }
+}
