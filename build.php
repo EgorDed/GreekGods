@@ -1,5 +1,6 @@
 <?php
 $parts = [
+    'names/demiurges.dot',
     'names/gods.dot',
     'names/titans.dot',
     'names/heroes.dot',

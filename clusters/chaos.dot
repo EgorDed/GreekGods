@@ -4,10 +4,4 @@ subgraph cluster_chaos {
     color = "#b39ddb";
     penwidth = 3;
 
-    Chaos;
-    Gaia;
-    Tartarus;
-    Eros;
-    Nyx;
-    Erebus;
 }
