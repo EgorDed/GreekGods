@@ -1,6 +1,12 @@
 // === Поколение Хаоса ===
 Chaos -> { Gaia Tartarus Eros Nyx };
-Nyx -> { Erebus };
+
+Nyx -> { Erebus, Nyx_Erebus};
+Erebus -> Nyx_Erebus ;
+
+// === Дети Нюкты и Эреба ===
+Nyx_Erebus [shape=point width=0 label=""];
+Nyx_Erebus -> { Ether , Gemera, Charon , Nemesis}
 
 // === Поколение Титанов ===
 Gaia -> Uranus;
@@ -15,4 +21,7 @@ Zeus -> { Athena Apollo Artemis Ares Hermes Dionysus };
 // === Герои ===
 Zeus -> Heracles;
 Zeus -> Perseus;
-Zeus -> Helen;
+Zeus, Nemesis -> Helen;
+
+// === Монстры ===
+Tartarus, Nemesis -> Telkhines

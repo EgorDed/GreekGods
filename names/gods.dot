@@ -1,8 +1,7 @@
-// === Боги ===
+// === Боги олимпа ===
 Zeus [label="Зевс"];
 Hera [label="Гера"];
 Poseidon [label="Посейдон"];
-Hades [label="Аид"];
 Demeter [label="Деметра"];
 Hestia [label="Гестия"];
 Apollo [label="Аполлон"];
@@ -12,3 +11,15 @@ Athena [label="Афина"];
 Aphrodite [label="Афродита"];
 Hermes [label="Гермес"];
 Dionysus [label="Дионис"];
+
+Hades [label="Аид"];
+
+// === Персонофикации ===
+Ether [label="Эфир", discriprion="Воплощение света"];
+Gemera [label="Гемера", discriprion="Воплощение дня"];
+
+Charon [label="Харон", discriprion=""];
+
+// === Боги ===
+Nemesis [label="Немезида", discriprion="Богиня возмездия"];
+
