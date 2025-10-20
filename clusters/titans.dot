@@ -1,5 +1,5 @@
 subgraph cluster_titans {
-    label = "Эпоха Титанов";
+    label = "";
     style = "rounded";
     color = "#81d4fa";
     penwidth = 3;

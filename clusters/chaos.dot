@@ -1,5 +1,5 @@
 subgraph cluster_chaos {
-    label = "Эпоха Хаоса";
+    label = "";
     style = "rounded";
     color = "#b39ddb";
     penwidth = 3;

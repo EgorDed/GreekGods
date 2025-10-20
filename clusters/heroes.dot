@@ -1,5 +1,5 @@
 subgraph cluster_heroes {
-    label = "Герои и смертные";
+    label = "";
     style = "rounded";
     color = "#aed581";
     penwidth = 3;

@@ -1,5 +1,5 @@
 subgraph cluster_olympians {
-    label = "Эпоха Олимпийцев";
+    label = "";
     style = "rounded";
     color = "#ffcc80";
     penwidth = 3;
