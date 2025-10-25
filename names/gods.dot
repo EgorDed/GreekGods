@@ -17,9 +17,13 @@ Hades [label="Аид"];
 // === Персонофикации ===
 Ether [label="Эфир", discriprion="Воплощение света"];
 Gemera [label="Гемера", discriprion="Воплощение дня"];
+Hypnosis [label="Гипнос", discriprion="Воплощение сна"];
 
 Charon [label="Харон", discriprion=""];
 
 // === Боги ===
 Nemesis [label="Немезида", discriprion="Богиня возмездия"];
-
+Erida [label="Эрида", discriprion="Богиня раздора и хаоса"];
+Morpheus [label="Морфей", discriprion="Бог пророческих или лживых снов"];
+Phobetor [label="Фобетор", discriprion="Бог снов"];
+Phantasos [label="Фантас", discriprion="Бог снов"];
