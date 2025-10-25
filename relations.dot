@@ -1,22 +1,28 @@
 // === Поколение Хаоса ===
 Chaos -> { Gaia Tartarus Eros Nyx };
 
-Nyx -> {Morpheus, Erebus, Nyx_Erebus, Nyx_Hypnosis};
+Nyx -> {Erebus,Apata, Nyx_Erebus, Nyx_Hypnosis};
 Erebus -> Nyx_Erebus;
 
+// === Боги снов ===
 Nyx_Hypnosis [shape=point width=0 label=""];
 Hypnosis -> Nyx_Hypnosis;
 Nyx_Hypnosis -> {Morpheus, Phantasos, Phobetor};
+
 // === Дети Нюкты и Эреба ===
 Nyx_Erebus [shape=point width=0 label=""];
 Nyx_Erebus -> {
-    Ether,
-    Gemera,
-    Charon,
-    Nemesis,
-    Erida,
-    Hypnosis
+    Ether, Gemera, Charon, Nemesis,
+    Erida, Hypnosis, Thanatos,
+    Mom, Geras, Moros
 }
+
+// ===  Дети Нюкты и Урана ===
+//Uranus -> Nyx_Uranus;
+//Nyx_Uranus [shape=point width=0 label=""];
+//Nyx_Uranus -> {Lissa}
+Uranus -> Lissa;
+Nyx -> Lissa;
 
 // === Поколение Титанов ===
 Gaia -> Uranus;
