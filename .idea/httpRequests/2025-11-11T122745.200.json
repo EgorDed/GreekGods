@@ -1,0 +1,16 @@
+{
+  "args": {
+    "generated-in": "PhpStorm"
+  },
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "br, deflate, gzip, x-gzip",
+    "Host": "examples.http-client.intellij.net",
+    "User-Agent": "IntelliJ HTTP Client/PhpStorm 2025.2.3",
+    "X-Forwarded-Host": "examples.http-client.intellij.net",
+    "X-Forwarded-Scheme": "https",
+    "X-Scheme": "https"
+  },
+  "origin": "149.22.90.115",
+  "url": "https://examples.http-client.intellij.net/get?generated-in=PhpStorm"
+}
