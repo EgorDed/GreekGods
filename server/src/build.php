@@ -9,7 +9,7 @@ $parts = [
     'clusters/titans.dot',
     'clusters/olympians.dot',
     'clusters/heroes.dot',
-    '/server/relations.dot',
+    '/server/src/relations.dot',
 ];
 
 $main = file_get_contents(__DIR__ . '/main.dot');
