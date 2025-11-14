@@ -9,10 +9,10 @@ $parts = [
     'clusters/titans.dot',
     'clusters/olympians.dot',
     'clusters/heroes.dot',
-    'relations.dot',
+    '/server/relations.dot',
 ];
 
-$main = file_get_contents('main.dot');
+$main = file_get_contents('/server/main.dot');
 $content = '';
 
 foreach ($parts as $path) {
