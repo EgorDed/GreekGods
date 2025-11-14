@@ -1,9 +1,0 @@
-GET https://examples.http-client.intellij.net/get?generated-in=PhpStorm
-User-Agent: IntelliJ HTTP Client/PhpStorm 2025.2.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-11-11T122745.200.json
-
-###
-
