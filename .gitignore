@@ -1,3 +1,4 @@
 /server/build
 .idea
 /build
+/server/api/vendor
