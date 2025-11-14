@@ -12,7 +12,7 @@ $parts = [
     '/server/relations.dot',
 ];
 
-$main = file_get_contents('/server/main.dot');
+$main = file_get_contents(__DIR__ . '/main.dot');
 $content = '';
 
 foreach ($parts as $path) {
