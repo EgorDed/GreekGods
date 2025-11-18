@@ -10,16 +10,16 @@ class FileController extends BaseController
     /**
      * Метод для вывода final.dot
      */
-    public function getFinalDot(): Response
+    public function getFinalDot(Request $request, Response $response, $args): Response
     {
         $file = __DIR__ . '/../../build/final.dot';
 
         if (!file_exists($file)) {
-            return $this->jsonResponse(['error' => 'final.dot not found'], 404);
+            return $this->createResponse($response, ['error' => 'final.dot not found'], 404);
         }
 
         $content = file_get_contents($file);
 
-        return $this->jsonResponse(['content' => $content]);
+        return $this->createResponse($response, ['content' => $content]);
     }
 }
