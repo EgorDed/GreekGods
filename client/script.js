@@ -1,10 +1,23 @@
 async function loadSchema() {
     try {
-        const response = await fetch('/schema.dot');
-        const dotContent = await response.text();
+        const response = await fetch('http://greekgods.ru/api/v1/final/', {
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
 
-        // Рендерим с d3-graphviz
-        d3.select("#graph").graphviz()
+        if (!response.ok) {
+            throw new Error('HTTP ' + response.status);
+        }
+
+        const data = await response.json(); // <-- получаем JSON
+        const dotContent = data.content;        // <-- берём поле dot
+
+        console.log(dotContent);
+
+        // Рендерим DOT через d3-graphviz
+        d3.select("#graph")
+            .graphviz()
             .renderDot(dotContent);
 
     } catch (error) {

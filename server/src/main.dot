@@ -23,5 +23,4 @@ digraph GreekMythology {
         penwidth=1.4
     ];
 
-    // === Ниже PHP скрипт вставит include ===
 }
