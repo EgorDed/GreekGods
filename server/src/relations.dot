@@ -25,8 +25,11 @@ Uranus -> Lissa;
 Nyx -> Lissa;
 
 // === Поколение Титанов ===
-Gaia -> Uranus;
-Uranus -> { Cronus Rhea Themis Oceanus Hyperion };
+Gaia -> {Uranus, Gaia_Uranus};
+Uranus -> Gaia_Uranus;
+Gaia_Uranus [shape=point width=0 label=""];
+
+Gaia_Uranus -> { Cronus Rhea Themis Oceanus Hyperion };
 
 // === Поколение Олимпийцев ===
 Cronus -> { Zeus Poseidon Hades Hera Demeter Hestia };

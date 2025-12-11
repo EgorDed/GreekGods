@@ -15,7 +15,7 @@ Dionysus [label="Дионис"];
 Hades [label="Аид"];
 
 // === Персонофикации ===
-Uranus [label="Уран", discriprion="Воплощение неба"];
+Uranus [label="Уран", discriprion="Воплощение неба" image="/images/Uranus.jpg"];
 Ether [label="Эфир", discriprion="Воплощение света"];
 Gemera [label="Гемера", discriprion="Воплощение дня"];
 Hypnosis [label="Гипнос", discriprion="Воплощение сна"];
